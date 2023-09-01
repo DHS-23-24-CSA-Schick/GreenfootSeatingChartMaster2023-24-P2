@@ -156,6 +156,9 @@ public class Classroom extends World
         EashanMahajan eashan = new EashanMahajan();
         addObject(eashan, 5, 7);
         eashan.assignSeat();
+        ToniEn toni = new ToniEn();
+        addObject(toni, 2, 4);
+        eashan.assignSeat();
   
     }
     
