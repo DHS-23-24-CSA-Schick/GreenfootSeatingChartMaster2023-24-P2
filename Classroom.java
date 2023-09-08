@@ -143,102 +143,106 @@ public class Classroom extends World {
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
-    
+
     private void prepare()
     {
-      createDeskLayout();
- // Each student needs to create their specific instance following the KilgoreTrout example.
- // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
- // and then clicking on the inspect text
-      KilgoreTrout kilgoretrout = new KilgoreTrout();
-      addObject(kilgoretrout,2,3);
-      kilgoretrout.assignSeat();
-    
-      AyushiGhosh ayushighosh = new AyushiGhosh();
-      addObject(ayushighosh, 3,3);
-      ayushighosh.assignSeat();
-      
-      AltaWan altawan = new AltaWan();
-      addObject(altawan,8,6);
-      altawan.assignSeat();
+        createDeskLayout();
+        // Each student needs to create their specific instance following the KilgoreTrout example.
+        // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
+        // and then clicking on the inspect text
+        KilgoreTrout kilgoretrout = new KilgoreTrout();
+        addObject(kilgoretrout,2,3);
+        kilgoretrout.assignSeat();
 
-      GojoSatoru gojo = new GojoSatoru();
-      addObject(gojo, 6, 7);
-      gojo.assignSeat();
+        AyushiGhosh ayushighosh = new AyushiGhosh();
+        addObject(ayushighosh, 3,3);
+        ayushighosh.assignSeat();
 
-      RocketUzarraga rocketuzarraga = new RocketUzarraga();
-      addObject(rocketuzarraga, 9, 7);
-      rocketuzarraga.assignSeat();
+        AltaWan altawan = new AltaWan();
+        addObject(altawan,8,6);
+        altawan.assignSeat();
 
-      FranklinLiu franklinLiu = new FranklinLiu();
-      addObject(franklinLiu, 5, 6);
-      franklinLiu.assignSeat();
+        GojoSatoru gojo = new GojoSatoru();
+        addObject(gojo, 6, 7);
+        gojo.assignSeat();
 
-      AryanJain aryanjain = new AryanJain();
-      addObject(aryanjain, 6, 3);
-      aryanjain.assignSeat();
+        RocketUzarraga rocketuzarraga = new RocketUzarraga();
+        addObject(rocketuzarraga, 9, 7);
+        rocketuzarraga.assignSeat();
 
-      JaydeLaderas jaydeladeras = new JaydeLaderas();
-      addObject(jaydeladeras, 6, 4);
-      jaydeladeras.assignSeat();
+        FranklinLiu franklinLiu = new FranklinLiu();
+        addObject(franklinLiu, 5, 6);
+        franklinLiu.assignSeat();
 
-      JiminLim jiminlim = new JiminLim();
-      addObject(jiminlim, 6, 6);
-      jiminlim.assignSeat();
+        AryanJain aryanjain = new AryanJain();
+        addObject(aryanjain, 6, 3);
+        aryanjain.assignSeat();
 
-      RomirHiremath romirhiremath = new RomirHiremath();
-      addObject(romirhiremath, 2, 3);
-      romirhiremath.assignSeat();
+        JaydeLaderas jaydeladeras = new JaydeLaderas();
+        addObject(jaydeladeras, 6, 4);
+        jaydeladeras.assignSeat();
 
-      GargAyush gargAyush = new GargAyush();
-      addObject(gargAyush, 3, 4);
-      gargAyush.assignSeat();
-      
-      EashanMahajan eashan = new EashanMahajan();
-      addObject(eashan, 5, 7);
-      eashan.assignSeat();
+        JiminLim jiminlim = new JiminLim();
+        addObject(jiminlim, 6, 6);
+        jiminlim.assignSeat();
 
-      JiaAggarwal jia = new JiaAggarwal();
-      addObject(jia, 2, 7);
-      jia.assignSeat();
+        RomirHiremath romirhiremath = new RomirHiremath();
+        addObject(romirhiremath, 2, 3);
+        romirhiremath.assignSeat();
 
-      AnjaliZalani anjalizalani = new AnjaliZalani();
-      addObject(anjalizalani, 8, 4);
-      anjalizalani.assignSeat();
+        GargAyush gargAyush = new GargAyush();
+        addObject(gargAyush, 3, 4);
+        gargAyush.assignSeat();
 
-      ToniEn tonien = new ToniEn();
-      addObject(tonien, 2, 4);
-      tonien.assignSeat();
+        EashanMahajan eashan = new EashanMahajan();
+        addObject(eashan, 5, 7);
+        eashan.assignSeat();
 
-      VineelBhattiprolu vineel = new VineelBhattiprolu();
-      addObject(vineel, 3, 6);
-      vineel.assignSeat();
+        JiaAggarwal jia = new JiaAggarwal();
+        addObject(jia, 2, 7);
+        jia.assignSeat();
 
-      TanayKotian tanaykotian = new TanayKotian();
-      addObject(tanaykotian, 5, 4);
-      tanaykotian.assignSeat();
+        AnjaliZalani anjalizalani = new AnjaliZalani();
+        addObject(anjalizalani, 8, 4);
+        anjalizalani.assignSeat();
 
-      ConnorTK connorTK = new ConnorTK();
-      addObject(connorTK, 8, 7);
-      connorTK.assignSeat();
-      
-      GavinNgim gavinngim = new GavinNgim();
-      addObject(gavinngim, 6, 9);
-      
-      TylerPrellwitz tylerprellwitz = new TylerPrellwitz();
-      addObject(tylerprellwitz, 8, 10);
-      tylerprellwitz.assignSeat();
+        ToniEn tonien = new ToniEn();
+        addObject(tonien, 2, 4);
+        tonien.assignSeat();
 
-      JadenDing jadending = new JadenDing();
-      addObject(jadending, 2, 6);
-      jadending.assignSeat();
+        VineelBhattiprolu vineel = new VineelBhattiprolu();
+        addObject(vineel, 3, 6);
+        vineel.assignSeat();
 
-      RohanNihalani rohannihalani = new RohanNihalani();
-      addObject(rohannihalani, 5, 9);
-      rohannihalani.assignSeat();
-      
-      Irene Irenep = new Irene();
-      addObject(Irenep,5,10);
-      Irenep.assignSeat();
-  }
+        TanayKotian tanaykotian = new TanayKotian();
+        addObject(tanaykotian, 5, 4);
+        tanaykotian.assignSeat();
+
+        ConnorTK connorTK = new ConnorTK();
+        addObject(connorTK, 8, 7);
+        connorTK.assignSeat();
+
+        GavinNgim gavinngim = new GavinNgim();
+        addObject(gavinngim, 6, 9);
+
+        TylerPrellwitz tylerprellwitz = new TylerPrellwitz();
+        addObject(tylerprellwitz, 8, 10);
+        tylerprellwitz.assignSeat();
+
+        JadenDing jadending = new JadenDing();
+        addObject(jadending, 2, 6);
+        jadending.assignSeat();
+
+        RohanNihalani rohannihalani = new RohanNihalani();
+        addObject(rohannihalani, 5, 9);
+        rohannihalani.assignSeat();
+
+        Irene Irenep = new Irene();
+        addObject(Irenep,5,10);
+        Irenep.assignSeat();
+
+        RyanRamakrishnan ryanRamakrishnan = new RyanRamakrishnan();
+        addObject(ryanRamakrishnan,9,10);
+        ryanRamakrishnan.assignSeat();
+    }
 }
