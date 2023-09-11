@@ -225,11 +225,11 @@ public class Classroom extends World {
     ConnorTK connorTK = new ConnorTK();
     addObject(connorTK, 8, 7);
     connorTK.assignSeat();
-    
+
     RishiJain rishijain = new RishiJain();
-    addObject(rishijain,5,3);
+    addObject(rishijain, 5, 3);
     rishijain.assignSeat();
-    
+
     MeganZhang meganZhang = new MeganZhang();
     addObject(meganZhang, 9, 4);
     meganZhang.assignSeat();
@@ -256,8 +256,12 @@ public class Classroom extends World {
     MohitSureshChandar mohitsureshchandar = new MohitSureshChandar();
     addObject(mohitsureshchandar, 8, 9);
     mohitsureshchandar.assignSeat();
-    
-    MeetingButton button7 = new MeetingButton(new Student[] {rocketuzarraga, connorTK, altawan, harshavajrala});
+
+    LeoZhu leozhu = new LeoZhu();
+    addObject(leozhu, 9, 3);
+    leozhu.assignSeat();
+
+    MeetingButton button7 = new MeetingButton(new Student[] { rocketuzarraga, connorTK, altawan, harshavajrala });
     addObject(button7, 10, 7);
   }
 }
