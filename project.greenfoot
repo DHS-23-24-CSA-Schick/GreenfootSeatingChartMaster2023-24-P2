@@ -1,4 +1,8 @@
 #Greenfoot project file
+class.Classroom.image=csa.jpg
+class.HarshaVajrala.image=harshavajrala.jpg
+class.KilgoreTrout.image=harshavajrala-standing.PNG
+class.MrKaehms.image=MrKaehms.jpg
 class.AltaWan.image=altawan.jpg.jpg
 class.AnjaliZalani.image=anjalizalani.jpg
 class.AryanJain.image=man01.png
@@ -15,6 +19,7 @@ class.TeacherDesk.image=TeacherDesk.png
 dependency1.from=Classroom
 dependency1.to=StudentDesk
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=Classroom
 dependency10.to=JaydeLaderas
 dependency10.type=UsesDependency
@@ -131,6 +136,8 @@ height=822
 package.numDependencies=37
 package.numTargets=41
 project.charset=windows-1252
+=======
+>>>>>>> 9825d173025542e48b02e46768ad377f9d96dd62
 publish.hasSource=false
 publish.locked=true
 publish.longDesc=
@@ -140,6 +147,7 @@ publish.title=
 publish.url=
 readme.height=60
 readme.name=@README
+<<<<<<< HEAD
 readme.width=49
 readme.x=10
 readme.y=10
@@ -428,6 +436,8 @@ target9.height=70
 target9.name=GavinNgim
 target9.showInterface=false
 target9.type=ClassTarget
+=======
+>>>>>>> 9825d173025542e48b02e46768ad377f9d96dd62
 target9.width=120
 target9.x=0
 target9.y=0
