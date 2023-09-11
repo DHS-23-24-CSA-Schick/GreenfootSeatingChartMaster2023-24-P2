@@ -261,6 +261,10 @@ public class Classroom extends World {
     addObject(leozhu, 9, 3);
     leozhu.assignSeat();
 
+    RyanRamakrishnan ryanRamakrishnan = new RyanRamakrishnan();
+    addObject(ryanRamakrishnan, 9, 10);
+    ryanRamakrishnan.assignSeat();
+
     MeetingButton button7 = new MeetingButton(new Student[] { rocketuzarraga, connorTK, altawan, harshavajrala });
     addObject(button7, 10, 7);
   }
